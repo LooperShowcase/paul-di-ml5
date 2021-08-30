@@ -4,7 +4,7 @@ class Player {
     this.x = 50;
     this.y = height - 50;
     this.velocitY = 0;
-    this.gravity = 1.5;
+    this.gravity = 1.2;
   }
 
   show() {
@@ -13,7 +13,7 @@ class Player {
 
   jump() {
     if (this.y == height - this.size) {
-      this.velocitY = -20;
+      this.velocitY = -30;
     }
   }
 
